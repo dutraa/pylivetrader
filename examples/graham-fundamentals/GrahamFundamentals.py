@@ -14,7 +14,7 @@
 # overall. It rebalances its selections and cash allocations once every three months.
 
 from iexfinance.base import _IEXBase
-from iexfinance import Stock
+from iexfinance.stocks import Stock
 from urllib.parse import quote
 from pylivetrader import *
 import pandas as pd
